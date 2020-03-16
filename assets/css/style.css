@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
+ /* Body Styling */
 
-body {
+ body {
     background-color: #d9dcd6;
 }
+
+/* Header Styling */
 
 header {
     padding: 20px 35px;
@@ -41,7 +44,7 @@ header nav ul li a {
 }
 
 
-
+/* Hero Styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +63,8 @@ header nav ul li a {
     float: right;
     margin-left: 25px;
 }
+
+/* Content Styling */
 
 .content {
     width: 75%;
