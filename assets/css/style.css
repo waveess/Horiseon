@@ -8,47 +8,39 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+header {
+    padding: 20px 35px;
+    background-color:#2a607c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.header h1 {
-    display: inline-block;
+header h1 {
+    font-weight: bold;
     font-size: 48px;
+    color: #ffffff;
+    margin:0;
+    display: inline;
 }
-
-.header h1 .seo {
+header .seo {
     color: #d9dcd6;
 }
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
+header a {
     text-decoration: none;
+    color: #ffffff;
+}
+header nav {
+    float:right; /*similar to text wrapping property in docs or word */
+    margin: 7px 0; /* margin adds space to the top and bottom and 0 represents the spaces to the right and left */
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
-p {
-    font-size: 16px;
-}
+
 
 .hero {
     height: 800px;
@@ -188,13 +180,3 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
